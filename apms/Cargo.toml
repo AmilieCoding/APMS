@@ -1,0 +1,16 @@
+[package]
+name = "apms"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.37", features = ["env", "derive"] }
+dirs = "6.0.0"
+flate2 = "1.1.1"
+libc = "0.2.172"
+reqwest = { version = "0.12.15", features = ["blocking", "json"] }
+serde = {version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+tar = "0.4.44"
+tokio = {version = "1.44.2", features = ["full"] }
+toml = "0.8.20"
