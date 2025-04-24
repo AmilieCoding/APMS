@@ -5,16 +5,16 @@ APMS - Azine Package Management System
 The main package delivery system for Azine Linux, however, macOS DMG files are the recommended install method! Find more info at the "Azine" repo on our GitHub.
 
 # TODO
-- [x] Downloading Packages
+- [ ] Downloading Packages
 - [ ] Dependency Resolution
-- [x] Extracting Packages
+- [ ] Extracting Packages
 - [ ] Update Packages
 - [ ] Remove Packages
 - [ ] Change Package Host URL
 - [ ] File Integrity
 - [ ] Version Control
 - [ ] Package Search
-- [x] Package Hosting Server
+- [ ] Package Hosting Server
 
 # Development Usage
 Hey there developers! If you want to develop for Azine - Packages or similar, we include a friendly little helper in the folder "localserver". You'll need to get Flask for Python, but from there you can run a local mirror for testing your packages on!

@@ -1,4 +1,6 @@
+mod commands;
+mod utils;
+
 fn main() {
-    println!("Hello, world!");
-    println!("Test code, waow!");
+    commands::commands::commands();
 }
