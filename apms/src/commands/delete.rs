@@ -1,8 +1,5 @@
 use std::fs;
 use std::path::PathBuf;
-use flate2::read::GzDecoder;
-use tar::Archive;
-use crate::utils::download::PackageDownloader;
 use crate::utils::permissions::PermissionChecker;
 
 pub fn delete(package_name: &str) {
